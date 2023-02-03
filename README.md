@@ -15,4 +15,6 @@ Inside the directory "API Assignment" is a group project (group of 3) present wh
 **Details about our project:**
 It is a basically a movie-search engine made using basic html, css and javascript. You can clone that folder and run the main.html file to see the website!
 
+PS: This was made by 1st semester me, therefore, the code may not be very clean and tidy. Apologies in advance :P
+
 Thanks for visiting :)
