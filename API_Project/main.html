@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie reviews</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div style="background-color: #313D49;padding : 2% ; text-align: center;">
+		<label style="font-size: 250%;color:white;">What do you want to watch today ?</label>
+		<br>
+		<input type="text" onkeyDown="if(event.keyCode==13) search();"  id="search-text"  placeholder="eg. Rampage" style="width: 70%;font-size: 120%; border-radius: 10%; margin: 1%; padding:.6%">                    
+		<button onClick="search()" style="font-size: 120% ; background-color: #59BF73 ; color: white ; border-radius: 10%; padding:0.6% ;width : 10%; border-color: transparent;">Submit</button>
+</div>
+<div id="error_message">Something went wrong </div>
+<div id="movie_info" >
+<img id="poster" style="width: 20% ; height: 30%">
+	<br>
+    <b>Title</b> <div id="title" style="display: inline-block;"></div>
+    <br>
+    <b>Released</b> <div id="release" style="display: inline-block;"></div>
+    <br>
+    <b>Rated</b> <div id="rated" style="display: inline-block;"></div>
+    <br>
+    <b>Runtime</b> <div id="runtime" style="display: inline-block;"></div>
+    <br>
+    <b>Genre</b> <div id="genre" style="display: inline-block;"></div>
+    <br>
+    <b>Plot</b> <div id="plot" style="display: inline-block;"></div>
+    
+</div>
+<script  type="text/javascript" src="./script.js"></script>
+</body>
+</html>

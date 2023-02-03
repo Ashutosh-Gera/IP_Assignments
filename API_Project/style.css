@@ -1,0 +1,9 @@
+body{
+	margin:0px;
+}
+#movie_info{
+	display: none;
+}
+#error_message{
+	display: none;
+}
